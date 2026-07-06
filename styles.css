@@ -404,6 +404,7 @@ body {
   overflow: hidden;
   transition: max-height 0.3s ease;
   display: none;
+  color: #300D4A;
 }
 
 .servicio-card.expandida .descripcion-extra {
