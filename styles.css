@@ -195,11 +195,7 @@ body {
   .navandcontactinfo ul {
     display: none;
   }
-
-  .btn-contacto {
-    display: none;
-  }
-
+  
   .btn-hamburguesa {
     display: flex;
   }
@@ -278,7 +274,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-#inicio button {
+#inicio .hero-btn {
   background: #e1acf2;
   color: #3d1a52;
   border: none;
@@ -287,9 +283,11 @@ body {
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 
-#inicio button:hover {
+#inicio .hero-btn:hover {
   background: #d49aef;
 }
 
