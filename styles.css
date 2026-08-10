@@ -468,6 +468,28 @@ body {
   }
 }
 
+.servicios-cta {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.servicios-cta-btn {
+  background: #3d1a52;
+  color: white;
+  padding: 0.85rem 2rem;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.servicios-cta-btn:hover {
+  background: #2a0f38;
+}
+
 /*Aseguradoras*/
 #conquientrabajo {
   padding: 2rem 1.5rem;
