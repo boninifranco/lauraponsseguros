@@ -439,21 +439,16 @@ body {
   margin-bottom: 0.5rem;
 }
 .descripcion-extra {
-  color: #4a3358;
-  padding-top: 0.6rem;
-  margin-top: 0.4rem;
-  border-top: 1px solid #f0d9fa;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  display: none;
+}
+
+.servicio-card.expandida .descripcion-extra {
+  max-height: 200px;
 }
 .servicio-card .descripcion-extra {
   color: #300d4a;
-}
-.servicio-card.expandida .descripcion-extra {
-  display: block;
-  max-height: 200px;
 }
 
 @media (min-width: 768px) {
