@@ -29,3 +29,14 @@ navMobile.querySelectorAll('a').forEach(link => {
     navMobile.classList.remove('abierto');
   });
 });
+
+const video = document.getElementById('videoLaura');
+
+video.addEventListener('click', () => {
+  if (video.paused) {
+    video.play();
+    video.setAttribute('controls', true);
+  } else {
+    video.pause();
+  }
+});
