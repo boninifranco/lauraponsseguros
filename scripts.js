@@ -1,4 +1,4 @@
-'use strict';
+o'use strict';
 
 //Expandir cards
 const cards = document.querySelectorAll('.servicio-card');
@@ -28,15 +28,4 @@ navMobile.querySelectorAll('a').forEach(link => {
     btnHamburguesa.classList.remove('abierto');
     navMobile.classList.remove('abierto');
   });
-});
-
-const video = document.getElementById('videoLaura');
-
-video.addEventListener('click', () => {
-  if (video.paused) {
-    video.play();
-    video.setAttribute('controls', true);
-  } else {
-    video.pause();
-  }
 });
