@@ -1,4 +1,4 @@
-o'use strict';
+'use strict';
 
 //Expandir cards
 const cards = document.querySelectorAll('.servicio-card');
